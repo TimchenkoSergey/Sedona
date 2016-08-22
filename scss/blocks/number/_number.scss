@@ -1,0 +1,22 @@
+.number {
+	position: relative;
+
+	&::after,
+	&::before {
+		content: " ";
+		width: 10px;
+		height: 1px;
+		position: absolute;
+		top: 11px;
+
+		background-color: #fff;
+	}
+	
+	&::after {
+		right: 150px;
+	}
+
+	&::before {
+		left: 150px;
+	}
+}
