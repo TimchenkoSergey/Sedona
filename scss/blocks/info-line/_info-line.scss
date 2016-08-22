@@ -53,4 +53,14 @@
 		background-image: url("D:/Portfolio/firstFlex/img/photo-city@1x.jpg");
 		background-size: cover;
 	}
+
+	&__description--order {
+		order: 2;
+	}
+
+	&__picture--order {
+		order: 1;
+
+		background-image: url("D:/Portfolio/firstFlex/img/photo-bridge@1x.jpg");
+	}
 }
