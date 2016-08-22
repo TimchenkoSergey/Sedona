@@ -1,0 +1,81 @@
+.header {
+	background-image: url("D:/Portfolio/firstFlex/img/photo-background@1x.jpg");
+
+	&__text {
+		display: flex;
+		margin: 0 auto;
+
+		flex-direction: column;
+	}
+
+	&__text--center {
+		text-align: center;
+	}
+
+	&__welcome {
+		margin-top: 75px;
+	}
+
+	&__svg-wrap {
+		margin-bottom: 10px;
+	}
+
+	&__svg-welcome--blue {
+		fill: $blue;
+	}
+
+	&__svg-gorgeous--grey {
+		fill: #766357;
+	}
+
+	&__text-sedona--big-white {
+		color: #fff;
+
+		font-size: 75px;
+		font-weight: 700;
+	}	
+	
+	&__because {
+		margin-top: 20px;
+	}
+
+	&__svg-because--white {
+		fill: #fff;
+	}
+
+	&__triangle {
+		margin-bottom: -1px;
+
+		font-size: 0;
+		line-height: 0;
+	}
+	
+	&__svg-triangles {
+		width: 100%;
+		height: auto;
+	}
+
+	&__svg-triangles--white {
+		fill: #fff;
+		fill-rule: evenodd;
+	}
+
+	&__desciption-section--white {
+		background-color: #fff;
+	}
+	
+	&__text-sedona-description {
+		color: $h-text-color;
+
+		font-size: $h-text-size;
+		line-height: $h-text-line;
+	}
+	
+	&__text-sedona-description {
+		margin-bottom: 20px;
+	}
+
+	&__text-five-reasons {
+		margin-top: 0;
+	}
+}

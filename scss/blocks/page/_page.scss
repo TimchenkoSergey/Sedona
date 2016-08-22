@@ -1,0 +1,23 @@
+.page {
+	//basic styles for page
+	margin: 0;
+
+	background-color: #f2f2f2;
+	color: $text-color;
+
+	font-family: $font-family;
+	font-size: $text-size;
+	line-height: $text-line;
+	text-transform: uppercase;
+
+	&__wraper {
+		max-width: 1200px;
+		margin: 0 auto;
+
+		background-color: #fff;
+	}
+
+	&__wraper--shadow {
+		box-shadow: 0 0 30px rgba(0,0,0,0.2);
+	}
+}

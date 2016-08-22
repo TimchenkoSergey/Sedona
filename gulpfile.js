@@ -7,7 +7,7 @@ var gulp    = require("gulp"),
 	rename  = require("gulp-rename");
 
 gulp.task("css", function() {
-	gulp.src("scss/*.scss")
+	gulp.src("scss/main.scss")
 	.pipe(sass())
 	.pipe(prefix("last 5 versions","> 1%","ie 9"))
 	.pipe(minify())

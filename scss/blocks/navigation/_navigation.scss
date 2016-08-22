@@ -1,0 +1,45 @@
+.navigation {
+	height: 60px;
+	margin: auto;
+	padding-left: 75px;
+	padding-right: 75px;
+
+	background-color: #fff;
+
+	&__list {
+		display: flex;
+		width: 100%;
+		margin: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 0;
+
+		flex-direction: row;
+		justify-content: space-around;
+
+		list-style: none;
+	}
+
+	&__item {
+		display: block;
+
+		&--negative-margin {
+			//for logo sticking to the ceiling
+			margin-top: -15px;
+		}
+	}
+
+	&__link {
+
+		&--text {
+			color: #000;
+			
+			font-weight: 700;
+			text-decoration: none;
+		}
+	}
+
+	&__link:hover {
+		color: #81b3d2;
+	}
+}
