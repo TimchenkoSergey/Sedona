@@ -1,0 +1,21 @@
+.advantages {
+	display: flex;
+	margin-top: 55px;
+	margin-bottom: 65px;
+
+	flex-direction: row;
+	justify-content: space-around;
+
+	text-align: center;
+
+	&__svg {
+		fill: $blue;
+	}
+
+	&__header {
+		color: #000;
+
+		font-size: $h-text-size;
+		line-height: $h-text-line;
+	}
+}
