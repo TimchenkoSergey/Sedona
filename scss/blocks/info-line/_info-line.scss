@@ -1,0 +1,56 @@
+.info-line {
+	display: flex;
+	max-height: 260px;
+	margin-top: 50px;
+
+	&__description {
+		width: 33%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 70px;
+		padding-right: 70px;
+
+		background-color: $blue;
+		color: #fff;
+
+		text-align: center;
+	}
+
+	&__header {
+		margin: 0;
+
+		font-size: $h-text-size;
+		line-height: $h-text-line;
+	}
+
+	&__number {
+		position: relative;
+
+		&::after,
+		&::before {
+			content: " ";
+			width: 10px;
+			height: 1px;
+			position: absolute;
+			top: 11px;
+
+			background-color: #fff;
+		}
+		
+		&::after {
+			right: 150px;
+		}
+
+		&::before {
+			left: 150px;
+		}
+	}
+
+	&__picture {
+		width: 67%;
+		min-height: 260px;
+
+		background-image: url("D:/Portfolio/firstFlex/img/photo-city@1x.jpg");
+		background-size: cover;
+	}
+}
