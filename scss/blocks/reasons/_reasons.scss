@@ -1,0 +1,39 @@
+.reasons {
+	display: flex;
+	padding-top: 50px;
+	padding-bottom: 60px;
+
+	flex-direction: row;
+	justify-content: space-around;
+	
+	background-color: #eee;
+
+	text-align: center;
+
+	&__item {
+		width: 285px;
+	}
+
+	&__header {
+		margin-top: 0;
+
+		color: $h-text-color;
+
+		font-size: $h-text-size;
+		line-height: $h-text-line;
+	}
+
+	&__number {
+		@extend .number;
+
+		&::before {
+			background-color: #000;
+			left: 120px;
+		}
+
+		&::after {
+			background-color: #000;
+			right: 120px;
+		}
+	}
+}
