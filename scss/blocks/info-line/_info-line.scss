@@ -28,7 +28,16 @@
 		min-height: 260px;
 
 		background-image: url("D:/Portfolio/firstFlex/img/photo-city@1x.jpg");
-		background-size: cover;
+
+		@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-resolution: 1.5dppx),
+		only screen and (min-resolution: 144dpi)  {
+			& {
+				background-image: url("D:/Portfolio/firstFlex/img/photo-city@2x.jpg");
+			}
+		}
 	}
 
 	&__description--order {
@@ -39,5 +48,15 @@
 		order: 1;
 
 		background-image: url("D:/Portfolio/firstFlex/img/photo-bridge@1x.jpg");
+
+		@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-resolution: 1.5dppx),
+		only screen and (min-resolution: 144dpi)  {
+			& {
+				background-image: url("D:/Portfolio/firstFlex/img/photo-bridge@2x.jpg");
+			}
+		}
 	}
 }
