@@ -1,0 +1,41 @@
+.hotels-search {
+	padding-top: 50px;
+
+	text-align: center;
+
+	&__header {
+		margin-bottom: 35px;
+
+		color: $h-text-color;
+
+		font-size: 30px;
+	}
+
+	&__form-header {
+		width: 50%;
+		margin: 0 auto;
+		margin-top: 50px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		background-color: #766357;
+		color: #fff;
+
+		font-size: $h-text-size;
+		font-weight: 700;
+		line-height: $h-text-line;
+	}
+
+	&__wrap {
+		position: relative;
+	}
+
+	&__map {
+		width: 100%;
+		height: 600px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2;
+	}
+}

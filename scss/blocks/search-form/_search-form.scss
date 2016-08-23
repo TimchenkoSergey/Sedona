@@ -1,0 +1,126 @@
+.search-form {
+	width:50%;
+	padding-top: 50px;
+	padding-bottom: 55px;
+	padding-left: 55px;
+	padding-right: 55px;
+	position: absolute;
+	box-sizing: border-box;
+	left: 25%;
+	top: 0;
+	z-index: 3;
+
+	background-color: #fff;
+
+	text-align: left;
+
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	
+	&__wrap {
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__label {
+		margin-top: 15px;
+		width: 23%;
+
+		color: $h-text-color;
+		
+		font-weight: 700;
+	}
+
+	&__date {
+		width: 71%;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		padding-left: 10px;
+		
+		border: none;
+
+		background-color: #f2f2f2;
+		color: 	$h-text-color;
+		
+		font-size: $text-size;
+		font-weight: 700;	
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: $bg-input-color-hover;
+		}
+	}
+
+	&__text-label {
+		display: inline-block;
+	}
+	
+	&__counters {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__wrap--inline {
+		display: inline-block;
+
+		background-color: #f2f2f2;
+	}
+
+	&__text-label {
+		color: $h-text-color;
+		
+		font-weight: 700;
+	}
+
+	&__btn {
+		height: 38px;	
+		padding: 14px;
+
+		border: none;
+		
+		background-color: #f2f2f2;
+		color: #a9a9a9;
+
+		font-size: 12px;
+
+		cursor: pointer;
+
+		&:hover {
+			color: $h-text-color;
+		}
+	}
+
+	&__counter {
+		height: 38px;
+		box-sizing: border-box;
+		display: inline-block;
+		padding: 9px;
+
+		color: $h-text-color;
+
+		font-size: $text-size;
+		font-weight: 700;
+	}
+
+	&__submit {
+		width: 100%;
+		margin-top: 40px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		border: none;
+
+		background-color: $blue;
+		color: #fff;
+
+		font-size: $h-text-size;
+		font-weight: 700;
+		line-height: $h-text-line;
+
+		cursor: pointer;
+
+		&:hover {
+			background-color: $blue-hover;
+		}
+	}
+}
