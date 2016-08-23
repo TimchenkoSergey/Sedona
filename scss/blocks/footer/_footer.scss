@@ -1,0 +1,50 @@
+.footer {
+	display: flex;
+
+	justify-content: space-around;
+
+	&__hashtag {
+		color: $h-text-color;
+	}
+
+	&__social {
+		display: flex;
+	}
+
+	&__link {
+		width: 50px;
+		height: 50px;
+		display: block;
+		margin-right: 6px;
+
+		background-color: $blue;
+
+		text-align: center;
+
+		&:hover {
+			background-color: $blue-hover;
+		}
+	}
+
+	&__svg {
+		display: block;
+		margin: 0 auto;
+		margin-top: 17px;
+
+		fill: #fff;
+	}
+
+	&__author {
+		display: flex;
+	}
+
+	&__website-by {
+		color: $h-text-color;
+	}
+
+	&__author-svg {
+		display: block;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+}
