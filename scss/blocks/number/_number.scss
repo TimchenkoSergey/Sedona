@@ -13,10 +13,46 @@
 	}
 	
 	&::after {
-		right: 150px;
+		right: 43%;
+
+		@media 	only screen and (max-width: 1150px) {
+			& {
+				right: 40%;
+			}
+		}
+
+		@media 	only screen and (max-width: 870px) {
+			& {
+				right: 36%;
+			}
+		}
+
+		@media 	only screen and (max-width: 660px) {
+			& {
+				right: 32%;
+			}
+		}
 	}
 
 	&::before {
-		left: 150px;
+		left: 43%;
+
+		@media 	only screen and (max-width: 1150px) {
+			& {
+				left: 40%;
+			}
+		}
+
+		@media 	only screen and (max-width: 870px) {
+			& {
+				left: 36%;
+			}
+		}
+
+		@media 	only screen and (max-width: 660px) {
+			& {
+				left: 32%;
+			}
+		}
 	}
 }

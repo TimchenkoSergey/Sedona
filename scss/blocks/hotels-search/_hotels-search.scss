@@ -4,7 +4,7 @@
 	text-align: center;
 
 	&__header {
-		margin-bottom: 35px;
+		margin-bottom: 35px; 
 
 		color: $h-text-color;
 
@@ -17,6 +17,7 @@
 		margin-top: 50px;
 		padding-top: 30px;
 		padding-bottom: 30px;
+		box-sizing: border-box;
 
 		background-color: #766357;
 		color: #fff;
@@ -24,6 +25,19 @@
 		font-size: $h-text-size;
 		font-weight: 700;
 		line-height: $h-text-line;
+
+		@media 	only screen and (max-width: 1155px) {
+			& {
+				width: 70%;
+			}
+		}
+
+		@media 	only screen and (max-width: 830px) {
+			& {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+		}
 	}
 
 	&__wrap {

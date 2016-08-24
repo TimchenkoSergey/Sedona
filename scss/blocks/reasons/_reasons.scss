@@ -12,6 +12,12 @@
 
 	&__item {
 		width: 285px;
+
+		@media 	only screen and (max-width: 920px) {
+			& {
+				width: 30%;
+			}
+		}
 	}
 
 	&__header {
@@ -28,12 +34,24 @@
 
 		&::before {
 			background-color: #000;
-			left: 120px;
+			left: 41%;
+
+			@media 	only screen and (max-width: 850px) {
+				& {
+					left: 39%;
+				}
+			}
 		}
 
 		&::after {
 			background-color: #000;
-			right: 120px;
+			right: 41%;
+
+			@media 	only screen and (max-width: 850px) {
+				& {
+					right: 39%;
+				}
+			}
 		}
 	}
 }
