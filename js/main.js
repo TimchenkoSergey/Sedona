@@ -43,3 +43,23 @@
 		plus(e, counter2);
 	};
 }());
+(function() {
+	var doc        = document,
+		menuBtn    = doc.getElementById("menu"),
+		crossBtn   = doc.getElementById("cross"),
+		list       = doc.getElementsByClassName("navigation__list")[0];
+
+	menuBtn.onclick = function(e) {
+		e.preventDefault();
+
+		menuBtn.style.display = "none";
+		list.style.top = "0";
+	};
+
+	crossBtn.onclick = function(e) {
+		e.preventDefault();
+
+		menuBtn.style.display = "block";
+		list.style.top = "-130px";
+	};
+}());
