@@ -5,12 +5,25 @@
 
 	justify-content: space-around;
 
+	@media only screen and (max-width: 480px) {
+		& {
+			display: block;
+			text-align: center;
+		}
+	}
+
 	&__hashtag {
 		color: $h-text-color;
 	}
 
 	&__social {
 		display: flex;
+
+		@media only screen and (max-width: 480px) {
+			& {
+				display: block;
+			}
+		}
 	}
 
 	&__link {
@@ -26,6 +39,12 @@
 		&:hover {
 			background-color: $blue-hover;
 		}
+
+		@media only screen and (max-width: 480px) {
+			& {
+				display: inline-block;
+			}
+		}
 	}
 
 	&__svg {
@@ -38,6 +57,12 @@
 
 	&__author {
 		display: flex;
+
+		@media only screen and (max-width: 480px) {
+			& {
+				display: inline-block;
+			}
+		}
 	}
 
 	&__website-by {
@@ -51,6 +76,12 @@
 
 		&:hover {
 			fill: $blue;
+		}
+
+		@media only screen and (max-width: 480px) {
+			& {
+				display: inline-block;
+			}
 		}
 	}
 }

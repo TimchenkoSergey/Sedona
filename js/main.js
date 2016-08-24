@@ -1,3 +1,4 @@
+//Module for counters
 (function() {
 	var doc      = document,
 		minus1   = doc.getElementById("btnMinus1"),
@@ -43,6 +44,8 @@
 		plus(e, counter2);
 	};
 }());
+
+//Module for menu
 (function() {
 	var doc        = document,
 		menuBtn    = doc.getElementById("menu"),

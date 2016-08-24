@@ -29,11 +29,24 @@
 			padding-right: 20px;
 		}
 	}
+
+	@media only screen and (max-width: 680px) {
+		& {
+			width: 100%;
+			left: 0;
+		}
+	}
 	
 	&__wrap {
 		margin-bottom: 30px;
 		display: flex;
 		justify-content: space-between;
+
+		@media only screen and (max-width: 515px) {
+			& {
+				display: block;
+			}
+		}
 	}
 
 	&__label {
@@ -43,6 +56,15 @@
 		color: $h-text-color;
 		
 		font-weight: 700;
+
+		@media only screen and (max-width: 515px) {
+			& {
+				width: 100%;
+				display: block;
+
+				text-align: center;
+			}
+		}
 	}
 
 	&__date {
@@ -63,6 +85,12 @@
 		&:hover {
 			background-color: $bg-input-color-hover;
 		}
+
+		@media only screen and (max-width: 515px) {
+			& {
+				width: 100%;
+			}
+		}
 	}
 
 	&__text-label {
@@ -72,18 +100,41 @@
 	&__counters {
 		display: flex;
 		justify-content: space-between;
+
+		@media only screen and (max-width: 515px) {
+			& {
+				width: 100%;
+				display: block;
+			}
+		}
 	}
 
 	&__wrap--inline {
 		display: inline-block;
 
 		background-color: #f2f2f2;
+
+		@media only screen and (max-width: 515px) {
+			& {
+				display: block;
+
+				text-align: center;
+			}
+		}
 	}
 
 	&__text-label {
 		color: $h-text-color;
 		
 		font-weight: 700;
+
+		@media only screen and (max-width: 515px) {
+			& {
+				display: block;
+
+				text-align: center;
+			}
+		}
 	}
 
 	&__btn {
