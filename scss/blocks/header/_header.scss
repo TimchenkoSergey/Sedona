@@ -1,5 +1,5 @@
 .header {
-	background-image: url("D:/Portfolio/firstFlex/img/photo-background@1x.jpg");
+	background-image: url("../img/photo-background@1x.jpg");
 	background-size: 1200px 700px;
 	background-position: top;
 	
@@ -9,7 +9,7 @@
 	only screen and (min-resolution: 1.5dppx),
 	only screen and (min-resolution: 144dpi)  {
 		& {
-			background-image: url("D:/Portfolio/firstFlex/img/photo-background@2x.jpg");
+			background-image: url("../img/photo-background@2x.jpg");
 		}
 	}
 
