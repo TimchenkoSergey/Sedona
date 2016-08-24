@@ -1,0 +1,58 @@
+.number {
+	position: relative;
+
+	&::after,
+	&::before {
+		content: " ";
+		width: 10px;
+		height: 1px;
+		position: absolute;
+		top: 11px;
+
+		background-color: #fff;
+	}
+	
+	&::after {
+		right: 43%;
+
+		@media 	only screen and (max-width: 1150px) {
+			& {
+				right: 40%;
+			}
+		}
+
+		@media 	only screen and (max-width: 870px) {
+			& {
+				right: 36%;
+			}
+		}
+
+		@media 	only screen and (max-width: 660px) {
+			& {
+				right: 32%;
+			}
+		}
+	}
+
+	&::before {
+		left: 43%;
+
+		@media 	only screen and (max-width: 1150px) {
+			& {
+				left: 40%;
+			}
+		}
+
+		@media 	only screen and (max-width: 870px) {
+			& {
+				left: 36%;
+			}
+		}
+
+		@media 	only screen and (max-width: 660px) {
+			& {
+				left: 32%;
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+.info-line {
+	width: 100%;
+	display: flex;
+	max-height: 260px;
+	margin-top: 50px;
+
+	@media only screen and (max-width: 680px) {
+			& {
+				display: block;
+				max-height: 1000px;
+			}
+		}
+
+	&__description {
+		width: 33%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 70px;
+		padding-right: 70px;
+
+		background-color: $blue;
+		color: #fff;
+
+		text-align: center;
+
+		@media only screen and (max-width: 680px) {
+			& {
+				width: 100%;
+				box-sizing: border-box;
+			}
+		}
+	}
+
+	&__header {
+		margin: 0;
+
+		font-size: $h-text-size;
+		line-height: $h-text-line;
+	}
+
+	&__picture {
+		width: 67%;
+		min-height: 260px;
+
+		background-image: url("D:/Portfolio/firstFlex/img/photo-city@1x.jpg");
+		background-position: top;
+
+		@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-resolution: 1.5dppx),
+		only screen and (min-resolution: 144dpi)  {
+			& {
+				background-image: url("D:/Portfolio/firstFlex/img/photo-city@2x.jpg");
+			}
+		}
+
+		@media only screen and (max-width: 680px) {
+			& {
+				width: 100%;
+			}
+		}
+	}
+
+	&__description--order {
+		order: 2;
+	}
+
+	&__picture--order {
+		order: 1;
+
+		background-image: url("D:/Portfolio/firstFlex/img/photo-bridge@1x.jpg");
+		background-position: top;
+
+		@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		only screen and (min--moz-device-pixel-ratio: 1.5),
+		only screen and (-o-min-device-pixel-ratio: 3/2),
+		only screen and (min-resolution: 1.5dppx),
+		only screen and (min-resolution: 144dpi)  {
+			& {
+				background-image: url("D:/Portfolio/firstFlex/img/photo-bridge@2x.jpg");
+			}
+		}
+	}
+}
