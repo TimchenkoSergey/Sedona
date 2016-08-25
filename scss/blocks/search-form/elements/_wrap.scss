@@ -1,0 +1,11 @@
+&__wrap {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+
+	@media only screen and (max-width: 515px) {
+		& {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+&__cross {
+	display: none;
+	position: absolute;
+	top: 2px;
+	right: 20px;
+
+	border: none;
+
+	background-color: transparent;
+
+	cursor: pointer;
+
+	@media only screen and (max-width: 730px) {
+		& {
+			display: block;
+		}
+	}
+}

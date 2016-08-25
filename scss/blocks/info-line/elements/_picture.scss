@@ -1,0 +1,23 @@
+&__picture {
+	width: 67%;
+	min-height: 260px;
+
+	background-image: url("D:/Portfolio/firstFlex/img/photo-city@1x.jpg");
+	background-position: top;
+
+	@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (min-resolution: 1.5dppx),
+	only screen and (min-resolution: 144dpi)  {
+		& {
+			background-image: url("D:/Portfolio/firstFlex/img/photo-city@2x.jpg");
+		}
+	}
+
+	@media only screen and (max-width: 680px) {
+		& {
+			width: 100%;
+		}
+	}
+}

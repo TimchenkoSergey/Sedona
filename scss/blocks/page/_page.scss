@@ -9,15 +9,10 @@
 	font-size: $text-size;
 	line-height: $text-line;
 	text-transform: uppercase;
-
-	&__wraper {
-		max-width: 1200px;
-		margin: 0 auto;
-
-		background-color: #fff;
-	}
-
-	&__wraper--shadow {
-		box-shadow: 0 0 30px rgba(0,0,0,0.2);
-	}
+	
+	//import elements
+	@import "elements/_wraper";
+	
+	//import modifiers
+	@import "modifiers/_wraper--shadow";
 }

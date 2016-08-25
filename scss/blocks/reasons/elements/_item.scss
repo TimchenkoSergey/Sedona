@@ -1,0 +1,24 @@
+&__item {
+	width: 285px;
+
+	@media 	only screen and (max-width: 920px) {
+		& {
+			width: 30%;
+		}
+	}
+
+	@media only screen and (max-width: 680px) {
+		& {
+			width: 100%;
+			margin-bottom: 30px;
+
+			border-bottom: 1px solid #ddd;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+
+			border-bottom: none;
+		}
+	}
+}

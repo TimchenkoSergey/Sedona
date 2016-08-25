@@ -1,0 +1,15 @@
+&__text-label {
+	display: inline-block;
+
+	color: $h-text-color;
+	
+	font-weight: 700;
+
+	@media only screen and (max-width: 515px) {
+		& {
+			display: block;
+
+			text-align: center;
+		}
+	}
+}

@@ -13,81 +13,22 @@
 		}
 	}
 
-	&__text {
-		display: flex;
-		margin: 0 auto;
-
-		flex-direction: column;
-	}
-
-	&__text--center {
-		text-align: center;
-	}
-
-	&__welcome {
-		margin-top: 45px;
-	}
-
-	&__svg-wrap {
-		margin-bottom: 10px;
-	}
-
-	&__svg-welcome--blue {
-		fill: $blue;
-	}
-
-	&__svg-gorgeous--grey {
-		fill: #766357;
-	}
-
-	&__text-sedona--big-white {
-		color: #fff;
-
-		font-size: 75px;
-		font-weight: 700;
-	}	
+	//import elements
+	@import "elements/_text";
+	@import "elements/_welcome";
+	@import "elements/_svg-wrap";
+	@import "elements/_because";
+	@import "elements/_triangle";
+	@import "elements/_svg-triangles";
+	@import "elements/_text-sedona-description";
+	@import "elements/_text-five-reasons";
 	
-	&__because {
-		margin-top: 20px;
-	}
-
-	&__svg-because--white {
-		fill: #fff;
-	}
-
-	&__triangle {
-		margin-bottom: -2px;
-
-		font-size: 0;
-		line-height: 0;
-	}
-	
-	&__svg-triangles {
-		width: 100%;
-		height: auto;
-	}
-
-	&__svg-triangles--white {
-		fill: #fff;
-		fill-rule: evenodd;
-	}
-
-	&__desciption-section--white {
-		background-color: #fff;
-	}
-	
-	&__text-sedona-description {
-		color: $h-text-color;
-
-		font-size: $h-text-size;
-		line-height: $h-text-line;
-	}
-	
-	&__text-sedona-description {
-		margin-bottom: 20px;
-	}
-
-	&__text-five-reasons {
-		margin-top: 0;
-	}
+	//import modifiers
+	@import "modifiers/_text--center";
+	@import "modifiers/_svg-welcome--blue";
+	@import "modifiers/_svg-gorgeous--grey";
+	@import "modifiers/_text-sedona--big-white";
+	@import "modifiers/_svg-because--white";
+	@import "modifiers/_svg-triangles--white";
+	@import "modifiers/_desciption-section--white";
 }

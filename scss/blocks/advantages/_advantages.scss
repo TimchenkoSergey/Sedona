@@ -13,23 +13,8 @@
 			display: block;
 		}
 	}
-	
-	&__item {
-		@media only screen and (max-width: 680px) {
-			& {
-				width: 100%;
-			}
-		}
-	}
 
-	&__svg {
-		fill: $blue;
-	}
-
-	&__header {
-		color: #000;
-
-		font-size: $h-text-size;
-		line-height: $h-text-line;
-	}
+	@import "elements/_item";
+	@import "elements/_svg";
+	@import "elements/_header";
 }

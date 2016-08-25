@@ -1,0 +1,11 @@
+&__counters {
+	display: flex;
+	justify-content: space-between;
+
+	@media only screen and (max-width: 515px) {
+		& {
+			width: 100%;
+			display: block;
+		}
+	}
+}

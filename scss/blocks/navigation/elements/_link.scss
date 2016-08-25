@@ -1,0 +1,27 @@
+&__link {
+
+	&--text {
+		color: #000;
+
+		font-weight: 700;
+		text-decoration: none;
+
+		@media only screen and (max-width: 730px) {
+			& {
+				display: block;
+
+				color: #fff;
+			}
+		}
+	}
+
+	&:hover {
+		color: #81b3d2;
+
+		@media only screen and (max-width: 730px) {
+			& {
+				color: #fff;
+			}
+		}
+	}
+}

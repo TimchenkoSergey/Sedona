@@ -1,0 +1,25 @@
+&__date {
+	width: 71%;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	
+	border: none;
+
+	background-color: #f2f2f2;
+	color: 	$h-text-color;
+	
+	font-size: $text-size;
+	font-weight: 700;	
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: $bg-input-color-hover;
+	}
+
+	@media only screen and (max-width: 515px) {
+		& {
+			width: 100%;
+		}
+	}
+}

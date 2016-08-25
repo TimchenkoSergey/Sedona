@@ -1,0 +1,18 @@
+&__button {
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+	border: none;
+
+	background-color: #fff;
+
+	cursor: pointer;
+
+	@media only screen and (max-width: 730px) {
+		& {
+			display: block;
+		}
+	}
+}

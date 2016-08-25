@@ -1,0 +1,21 @@
+&__submit {
+	width: 100%;
+	margin-top: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border: none;
+
+	background-color: $blue;
+	color: #fff;
+
+	font-size: $h-text-size;
+	font-weight: 700;
+	line-height: $h-text-line;
+
+	cursor: pointer;
+
+	&:hover {
+		background-color: $blue-hover;
+	}
+}

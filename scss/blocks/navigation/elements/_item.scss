@@ -1,0 +1,21 @@
+&__item {
+	@media only screen and (max-width: 730px) {
+		& {
+			display: block;
+			padding-top: 5px;
+			padding-bottom: 5px;
+
+			border-bottom: 1px solid #AAAAAC;
+
+			background-color: $blue;
+		}
+	}
+
+	&:hover {
+		@media only screen and (max-width: 730px) {
+			& {
+				background-color: $blue-hover;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+&__counter {
+	height: 38px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 9px;
+
+	color: $h-text-color;
+
+	font-size: $text-size;
+	font-weight: 700;
+}

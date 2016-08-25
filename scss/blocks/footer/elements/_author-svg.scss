@@ -1,0 +1,15 @@
+&__author-svg {
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+
+	&:hover {
+		fill: $blue;
+	}
+
+	@media only screen and (max-width: 480px) {
+		& {
+			display: inline-block;
+		}
+	}
+}

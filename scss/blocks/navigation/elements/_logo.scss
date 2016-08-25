@@ -1,0 +1,12 @@
+&__logo {
+	max-height: 45px;
+	//for logo sticking to the ceiling
+	margin-top: -15px;
+
+	@media only screen and (max-width: 730px) {
+		& {
+			margin-top: 0;
+			order: 2;
+		}
+	}
+}

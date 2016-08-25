@@ -12,76 +12,11 @@
 		}
 	}
 
-	&__hashtag {
-		color: $h-text-color;
-	}
-
-	&__social {
-		display: flex;
-
-		@media only screen and (max-width: 480px) {
-			& {
-				display: block;
-			}
-		}
-	}
-
-	&__link {
-		width: 50px;
-		height: 50px;
-		display: block;
-		margin-right: 6px;
-
-		background-color: $blue;
-
-		text-align: center;
-
-		&:hover {
-			background-color: $blue-hover;
-		}
-
-		@media only screen and (max-width: 480px) {
-			& {
-				display: inline-block;
-			}
-		}
-	}
-
-	&__svg {
-		display: block;
-		margin: 0 auto;
-		margin-top: 17px;
-
-		fill: #fff;
-	}
-
-	&__author {
-		display: flex;
-
-		@media only screen and (max-width: 480px) {
-			& {
-				display: inline-block;
-			}
-		}
-	}
-
-	&__website-by {
-		color: $h-text-color;
-	}
-
-	&__author-svg {
-		display: block;
-		margin-top: 10px;
-		margin-left: 10px;
-
-		&:hover {
-			fill: $blue;
-		}
-
-		@media only screen and (max-width: 480px) {
-			& {
-				display: inline-block;
-			}
-		}
-	}
+	@import "elements/_hashtag";
+	@import "elements/_social";
+	@import "elements/_link";
+	@import "elements/_svg";
+	@import "elements/_author";
+	@import "elements/_website-by";
+	@import "elements/_author-svg";
 }
